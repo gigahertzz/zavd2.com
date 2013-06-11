@@ -1,0 +1,77 @@
+
+body {
+margin:0; 
+padding:0;
+/*background-color:#000;*/
+/*background-attachment: fixed;
+background-image:url('../images/bluesky2.jpg');
+background-repeat:no-repeat; 
+background-position: center top;*/
+}
+
+#wrapper {
+width:1000px;
+margin:20px auto;
+}
+
+#head{
+  background-color:#fff;
+	border:1px solid black;
+	height:70px;
+	
+}
+
+
+#content{
+	margin-top:20px;
+	clear:both;
+	border:0 solid black;
+}
+
+#for_auth {
+	width:230px;
+}
+
+.border_radius {
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius:6px 6px 6px 6px; 
+	-khtml-border-radius: 6px 6px 6px 6px;
+}
+
+.shadow {
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.5); 
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+#right_content {
+	float:right;
+	background-color:#fff;
+	width:180px;
+
+	border:1px solid black;
+	padding:10px;
+	margin-bottom:20px;
+}
+
+#left_content {
+	background-color:#fff;
+	width:755px;
+	border:1px solid black;
+	padding:10px;
+	margin-bottom:20px;
+}
+
+#footer {
+	background-color:#fff;
+	clear:both;
+	border:1px solid black;
+}
+
+#reg_form {
+	text-align:center;
+	margin:150px auto;
+	border:1px solid black;
+	width:500px;
+	height:300px;
+}
